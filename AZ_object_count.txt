@@ -1,0 +1,405 @@
+PS /home/pete> az graph query -q "Resources | summarize count() by type | order by count_ desc"                                              
+{                                    
+  "count": 100,
+  "data": [
+    {
+      "count_": 1213,
+      "type": "microsoft.compute/virtualmachines/extensions"
+    },
+    {
+      "count_": 1178,
+      "type": "microsoft.alertsmanagement/smartdetectoralertrules"
+    },
+    {
+      "count_": 809,
+      "type": "microsoft.insights/components"
+    },
+    {
+      "count_": 573,
+      "type": "microsoft.web/sites"
+    },
+    {
+      "count_": 482,
+      "type": "microsoft.network/networkinterfaces"
+    },
+    {
+      "count_": 474,
+      "type": "microsoft.compute/disks"
+    },
+    {
+      "count_": 466,
+      "type": "microsoft.storage/storageaccounts"
+    },
+    {
+      "count_": 304,
+      "type": "microsoft.compute/virtualmachines"
+    },
+    {
+      "count_": 241,
+      "type": "microsoft.insights/scheduledqueryrules"
+    },
+    {
+      "count_": 161,
+      "type": "microsoft.network/networksecuritygroups"
+    },
+    {
+      "count_": 146,
+      "type": "microsoft.web/connections"
+    },
+    {
+      "count_": 142,
+      "type": "microsoft.compute/restorepointcollections"
+    },
+    {
+      "count_": 115,
+      "type": "microsoft.compute/sshpublickeys"
+    },
+    {
+      "count_": 110,
+      "type": "microsoft.network/publicipaddresses"
+    },
+    {
+      "count_": 102,
+      "type": "microsoft.desktopvirtualization/workspaces"
+    },
+    {
+      "count_": 95,
+      "type": "microsoft.web/serverfarms"
+    },
+    {
+      "count_": 91,
+      "type": "microsoft.automation/automationaccounts/runbooks"
+    },
+    {
+      "count_": 81,
+      "type": "microsoft.network/privateendpoints"
+    },
+    {
+      "count_": 74,
+      "type": "microsoft.operationalinsights/workspaces"
+    },
+    {
+      "count_": 67,
+      "type": "microsoft.keyvault/vaults"
+    },
+    {
+      "count_": 64,
+      "type": "microsoft.sql/servers/databases"
+    },
+    {
+      "count_": 51,
+      "type": "microsoft.logic/workflows"
+    },
+    {
+      "count_": 49,
+      "type": "microsoft.insights/metricalerts"
+    },
+    {
+      "count_": 48,
+      "type": "microsoft.network/virtualnetworks"
+    },
+    {
+      "count_": 40,
+      "type": "microsoft.datafactory/factories"
+    },
+    {
+      "count_": 38,
+      "type": "microsoft.insights/actiongroups"
+    },
+    {
+      "count_": 33,
+      "type": "microsoft.managedidentity/userassignedidentities"
+    },
+    {
+      "count_": 30,
+      "type": "microsoft.hybridcompute/machines/extensions"
+    },
+    {
+      "count_": 29,
+      "type": "microsoft.servicebus/namespaces"
+    },
+    {
+      "count_": 24,
+      "type": "microsoft.portal/dashboards"
+    },
+    {
+      "count_": 24,
+      "type": "microsoft.app/containerapps"
+    },
+    {
+      "count_": 23,
+      "type": "microsoft.sqlvirtualmachine/sqlvirtualmachines"
+    },
+    {
+      "count_": 23,
+      "type": "microsoft.sql/servers"
+    },
+    {
+      "count_": 21,
+      "type": "microsoft.operationsmanagement/solutions"
+    },
+    {
+      "count_": 20,
+      "type": "microsoft.network/privatednszones"
+    },
+    {
+      "count_": 20,
+      "type": "microsoft.desktopvirtualization/applicationgroups"
+    },
+    {
+      "count_": 20,
+      "type": "microsoft.eventgrid/systemtopics"
+    },
+    {
+      "count_": 19,
+      "type": "microsoft.desktopvirtualization/hostpools"
+    },
+    {
+      "count_": 19,
+      "type": "microsoft.insights/datacollectionrules"
+    },
+    {
+      "count_": 19,
+      "type": "microsoft.network/privatednszones/virtualnetworklinks"
+    },
+    {
+      "count_": 19,
+      "type": "microsoft.compute/galleries/images/versions"
+    },
+    {
+      "count_": 17,
+      "type": "microsoft.apimanagement/service"
+    },
+    {
+      "count_": 17,
+      "type": "microsoft.compute/galleries/images"
+    },
+    {
+      "count_": 15,
+      "type": "microsoft.compute/snapshots"
+    },
+    {
+      "count_": 15,
+      "type": "microsoft.insights/activitylogalerts"
+    },
+    {
+      "count_": 15,
+      "type": "microsoft.network/connections"
+    },
+    {
+      "count_": 14,
+      "type": "microsoft.network/routetables"
+    },
+    {
+      "count_": 13,
+      "type": "microsoft.azurearcdata/sqlserverinstances/databases"
+    },
+    {
+      "count_": 13,
+      "type": "microsoft.migrate/movecollections"
+    },
+    {
+      "count_": 12,
+      "type": "microsoft.automation/automationaccounts"
+    },
+    {
+      "count_": 11,
+      "type": "microsoft.databricks/accessconnectors"
+    },
+    {
+      "count_": 11,
+      "type": "microsoft.maps/accounts"
+    },
+    {
+      "count_": 11,
+      "type": "microsoft.compute/virtualmachinescalesets"
+    },
+    {
+      "count_": 10,
+      "type": "microsoft.databricks/workspaces"
+    },
+    {
+      "count_": 10,
+      "type": "microsoft.cognitiveservices/accounts"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.compute/availabilitysets"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.sql/managedinstances/databases"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.compute/images"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.containerinstance/containergroups"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.insights/datacollectionendpoints"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.recoveryservices/vaults"
+    },
+    {
+      "count_": 9,
+      "type": "microsoft.insights/autoscalesettings"
+    },
+    {
+      "count_": 8,
+      "type": "microsoft.network/loadbalancers"
+    },
+    {
+      "count_": 8,
+      "type": "microsoft.network/localnetworkgateways"
+    },
+    {
+      "count_": 8,
+      "type": "microsoft.maintenance/maintenanceconfigurations"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.compute/galleries"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.insights/workbooks"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.relay/namespaces"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.hybridcompute/machines"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.network/virtualnetworkgateways"
+    },
+    {
+      "count_": 7,
+      "type": "microsoft.network/natgateways"
+    },
+    {
+      "count_": 6,
+      "type": "microsoft.containerregistry/registries"
+    },
+    {
+      "count_": 6,
+      "type": "microsoft.eventhub/namespaces"
+    },
+    {
+      "count_": 5,
+      "type": "microsoft.app/managedenvironments"
+    },
+    {
+      "count_": 5,
+      "type": "microsoft.hybridcompute/machines/licenseprofiles"
+    },
+    {
+      "count_": 4,
+      "type": "microsoft.network/networkprofiles"
+    },
+    {
+      "count_": 4,
+      "type": "microsoft.containerservice/managedclusters"
+    },
+    {
+      "count_": 4,
+      "type": "microsoft.solutions/applications"
+    },
+    {
+      "count_": 4,
+      "type": "microsoft.network/networkintentpolicies"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.cognitiveservices/accounts/projects"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.machinelearningservices/workspaces/batchendpoints/deployments"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.web/hostingenvironments"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.offazure/serversites"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.dataprotection/backupvaults"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.machinelearningservices/workspaces/batchendpoints"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.azurearcdata/sqlserverinstances"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.migrate/migrateprojects"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.documentdb/databaseaccounts"
+    },
+    {
+      "count_": 3,
+      "type": "microsoft.insights/webtests"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.offazure/mastersites"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.migrate/assessmentprojects"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.saas/resources"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.sql/virtualclusters"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.kubernetesconfiguration/privatelinkscopes"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.web/certificates"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.network/firewallpolicies"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.search/searchservices"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.sql/managedinstances"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.network/serviceendpointpolicies"
+    },
+    {
+      "count_": 2,
+      "type": "microsoft.network/networkwatchers"
+    }
+  ],
